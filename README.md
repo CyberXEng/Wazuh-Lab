@@ -1,4 +1,4 @@
-# Wazuh Lab [Installation , File Integrity , Blocking Malicious Actor ]
+## Wazuh Lab [File Integrity, Blocking Malicious Actor]
 
 > Proof‑of‑Concept for:
 >
