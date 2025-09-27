@@ -11,6 +11,9 @@
 * File integrity PoC: [https://documentation.wazuh.com/current/proof-of-concept-guide/poc-file-integrity-monitoring.html](https://documentation.wazuh.com/current/proof-of-concept-guide/poc-file-integrity-monitoring.html)
 * Block malicious actor PoC: [https://documentation.wazuh.com/current/proof-of-concept-guide/block-malicious-actor-ip-reputation.html](https://documentation.wazuh.com/current/proof-of-concept-guide/block-malicious-actor-ip-reputation.html)
 
+
+![Network Architecture](Images/Network%20Arch.png)<br/>
+
 ---
 
 ## Table of contents
