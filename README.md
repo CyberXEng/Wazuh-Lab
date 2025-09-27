@@ -333,20 +333,12 @@ sudo tail -n 200 /var/ossec/logs/active-responses.log
 # Agent (Linux): restart
 sudo systemctl restart wazuh-agent
 
-# CentOS: check iptables/firewalld for blocked IP
+ CentOS: check iptables/firewalld for blocked IP
 sudo iptables -L -n | grep <IP>
-sudo firewall-cmd --list-rich-rules | grep <IP>
+sudo #firewall-cmd --list-rich-rules | grep <IP>
 
 # Check active-response scripts
 ls -l /var/ossec/active-response/bin/
 ```
 
 ---
-
-If you want, I can now:
-
-* produce the exact `ossec.conf` files for Kali and Windows with the specific directories you want monitored (tell me paths), or
-* build a tuned `local_rules.xml` with a real matching condition (for example: X 404s in Y seconds or a specific exploit string) and an active-response command, or
-* add GitHub badges and a small ASCII diagram.
-
-Tell me which and I’ll add it directly into this Markdown (ready to paste into `README.md`).
