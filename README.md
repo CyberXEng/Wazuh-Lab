@@ -144,8 +144,8 @@ FIM is handled by Wazuh's `syscheck` module. Edit agent `ossec.conf` to configur
 
 ```xml
 <syscheck>
-  <!-- Frequency in seconds (3600 = 1 hour) -->
-  <frequency>3600</frequency>
+  <!-- Frequency in seconds (60 = 1 min) -->
+  <frequency>60</frequency>
 
   <!-- Directories to monitor (comma-separated) -->
   <directories check_all="yes">/etc,/usr/bin,/var/www</directories>
@@ -159,7 +159,7 @@ FIM is handled by Wazuh's `syscheck` module. Edit agent `ossec.conf` to configur
 
 ```xml
 <syscheck>
-  <frequency>3600</frequency>
+  <frequency>60</frequency>
   <!-- Windows paths; separate appropriately (semicolon or comma) -->
   <directories>c:\windows;c:\program files;c:\inetpub\wwwroot</directories>
   <ignore>c:\windows\temp\*;c:\program files\*\temp\*</ignore>
@@ -234,7 +234,7 @@ Create `/var/ossec/etc/rules/local_rules.xml` on the manager:
 
     <active-response>
       <command>firewalld-drop</command>
-      <timeout>3600</timeout>
+      <timeout>60</timeout>
     </active-response>
   </rule>
 </group>
