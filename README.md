@@ -43,7 +43,7 @@
 ## Install Wazuh manager (single-node)
 
 > **Note:** package names and repository commands evolve. Use the official Wazuh docs for exact repo URLs and packages for your distro/version. The examples below demonstrate the conceptual steps.
-
+![Wazuh Groups](Images/Wazuh%20Groups.png)<br/>
 ### 1. Update & prerequisites
 
 **Debian / Ubuntu**
@@ -141,6 +141,8 @@ sudo /var/ossec/bin/agent_control -l
 
 ## File Integrity Monitoring (FIM / syscheck)
 
+![File Intergrity](Images/File%20Intergrity.png)<br/>
+
 FIM is handled by Wazuh's `syscheck` module. Edit agent `ossec.conf` to configure directories and exclusions.
 
 ### Linux agent example (`/var/ossec/etc/ossec.conf`)
@@ -194,7 +196,7 @@ Search for `syscheck` or the rule IDs that relate to file-integrity alerts.
 ---
 
 ## Blocking a known malicious actor (active response)
-
+![Events And Alerts](Images/Events%20And%20Alerts.png)<br/>
 Goal: detect attacker IP from alerts and block it on the CentOS web server using active response (iptables/firewalld or hosts.deny).
 
 ### 1) Enable active-response in manager (`/var/ossec/etc/ossec.conf`)
