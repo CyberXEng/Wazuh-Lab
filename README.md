@@ -5,11 +5,12 @@
 > 1. Installing a **Wazuh manager** (single‑node)
 > 2. File Integrity Monitoring (FIM) on **Windows** and **Kali** agents
 > 3. Detecting & **blocking a malicious actor** (Kali → CentOS web server) using Wazuh active response / IP reputation
+* Full Wazuh Lab Video : [https://drive.google.com/file/d/1DNJXBfeELBXYrD0rRFHz3wt9AoeB4uoT/view](https://drive.google.com/file/d/1DNJXBfeELBXYrD0rRFHz3wt9AoeB4uoT/view)
 
 **References:**
 
-* File integrity PoC: [https://documentation.wazuh.com/current/proof-of-concept-guide/poc-file-integrity-monitoring.html](https://documentation.wazuh.com/current/proof-of-concept-guide/poc-file-integrity-monitoring.html)
-* Block malicious actor PoC: [https://documentation.wazuh.com/current/proof-of-concept-guide/block-malicious-actor-ip-reputation.html](https://documentation.wazuh.com/current/proof-of-concept-guide/block-malicious-actor-ip-reputation.html)
+* File integrity: [https://documentation.wazuh.com/current/proof-of-concept-guide/poc-file-integrity-monitoring.html](https://documentation.wazuh.com/current/proof-of-concept-guide/poc-file-integrity-monitoring.html)
+* Block malicious actor: [https://documentation.wazuh.com/current/proof-of-concept-guide/block-malicious-actor-ip-reputation.html](https://documentation.wazuh.com/current/proof-of-concept-guide/block-malicious-actor-ip-reputation.html)
 
 
 ![Network Architecture](Images/Network%20Arch.png)<br/>
