@@ -32,7 +32,7 @@
 
 ## Prerequisites
 
-* Host for Wazuh manager (CentOS/Ubuntu/Debian — adjust commands to your distro).
+* Host for Wazuh manager (CentOS/Ubuntu/Debian).
 * CentOS server running a web service (target machine).
 * Kali Linux machine (attacker) and one Windows host (agents).
 * Network connectivity: agents → manager on the required ports.
