@@ -6,7 +6,7 @@
 > 2. File Integrity Monitoring (FIM) on **Windows** and **Kali** agents
 > 3. Detecting & **blocking a malicious actor** (Kali → CentOS web server) using Wazuh active response / IP reputation
 > 4. Suricata IDS integration on **Ubuntu**
-* Full Wazuh Lab Video : [https://drive.google.com/file/d/1DNJXBfeELBXYrD0rRFHz3wt9AoeB4uoT/view](https://drive.google.com/file/d/1DNJXBfeELBXYrD0rRFHz3wt9AoeB4uoT/view)
+* Full Wazuh Lab Video : [https://drive.google.com/drive/folders/1RGNhs04WM-VEydVWw4FEqJCxEQBE6jW-](https://drive.google.com/drive/folders/1RGNhs04WM-VEydVWw4FEqJCxEQBE6jW-)
 
 **References:**
 * Instalation: [https://documentation.wazuh.com/current/quickstart.html](https://documentation.wazuh.com/current/quickstart.html)
